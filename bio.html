@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <h1>BIO DATA</h1>
+    </head>
+    <body>
+       Name:KUNCHAMA HARI
+        <img src="image.jpg" alt="photo" width="200" height="200"  border="2"/>
+       <h2>Educational Details</h2>
+           <h3>SSC-I have successfully completed SSC at the year 2021-with aggregate 80%</h3>
+           <h3> Intermediate MPC-I have successfully completed MPC at the year 2023-with aggregate 82%</h3> 
+           <h3>Currently now i am pursing B.Tech 3rd Year-at SRIT[AUTONOMUS]College Ananthapur</h3> 
+           <table border="1>"
+           
+            <tr> 
+            <h2>Mid Marks</h2>
+            <th>Subjects</th> <th>Marks</th>
+            <tr> <td>NLP</td><td>20</td> </tr>
+            <tr><td>OSSP</td><td>25</td></tr>  
+            <tr><td>CVIP</td><td>29</td></tr>  
+            <tr><td>EDAP</td><td>30</td></tr>
+            <tr><td>IQTA</td><td>19</td></tr>
+            <tr><td>ENVC</td><td>30</td></tr>
+        </tr>
+    </table>
+    <form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required />
+
+  <br /><br />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required />
+
+  <br /><br />
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" cols="30"></textarea>
+
+  <br /><br />
+
+  <button type="submit">Send</button>
+</form>
+   
+  <title>Professional Summary & Projects</title>
+  <style>
+    body {
+      margin: 1;
+      font-family: Verdana;
+      background: #f7f7f5;
+      color: #0f0202;
+    }
+    main.container {
+      max-width: 500px;
+      margin: 10px auto;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      box-shadow: 10 15px 64px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .summary p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #5c4694;
+      margin-top: 0;
+    }
+    .projects {
+      margin-top: 50px;
+    }
+    .cards {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #ecf0f1;
+      flex: 2 2 180px;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #12a5d1;
+      font-size: 1.25rem;
+    }
+    .card p {
+      color: #100c0e;
+      flex-grow: 1;
+      margin-bottom: 0;
+      margin-top: 12px;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      margin: 60px 0 20px 0;
+      color: #888;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    @media (max-width: 700px) {
+      .cards {
+        flex-direction: column;
+      }
+      .card {
+        flex: 1 1 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Experienced Full Stack Developer with a strong background in designing, developing, and deploying scalable web applications. Skilled in modern frontend and backend technologies, with a passion for delivering high-quality solutions and collaborating in agile teams.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Project Management Dashboard</h3>
+          <p>
+            Developed a responsive dashboard for tracking project progress, integrating real-time updates and analytics using React and Node.js.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>E-commerce Platform</h3>
+          <p>
+            Built a scalable e-commerce site with secure payment integration, product catalog, and user authentication using Angular and Express.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Designed and deployed a personal portfolio website showcasing skills, experience, and projects, optimized for SEO and mobile devices.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Vibe Coder
+  </footer>
+</body>
+</html>
