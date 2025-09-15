@@ -1,0 +1,56 @@
+
+
+<html>
+  <head>
+    <title>J Query Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     </head>
+    <body>
+      <h2>Hello jQuery</h2>
+      <h3>welocome to This Page</h3>
+      <button id="btn">Click Me</button>
+      <div class="index">
+        <P>This is a paragraph.
+          about myself
+        </P>
+      </div>
+      <script>
+        $(document.ready(function(){
+          $("#btn").click(function(){
+            $("h2").text("Button Clicked!");
+            $("h3").text("Button Clicked! Duplicate");
+            $(".index").css("background-color", "lightblue");
+            $("p").css("font-weight", "bold");
+          });
+        }));
+      </script>
+    </body>
+</html>
+
+
+<html>
+  <head>
+    <title>J Query Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h2>Hello jQuery</h2>
+    <h3>welcome to This Page</h3>
+    <button id="btn">Click Me</button>
+    <div class="index">
+      <p>This is a paragraph.
+        about myself
+      </p>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+          $("h2").text("Button Clicked!");
+          $("h3").text("Button Clicked! Duplicate");
+          $(".index").css("background-color", "lightblue");
+          $("p").css("font-weight", "bold");
+        });
+      });
+    </script>
+  </body>
+</html>
